@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# SQLite Databases & Backups (Optionally ignore or preserve data)
+data/lifepoint.db
+data/exports/*
+!data/exports/.gitkeep
+data/backups/*
+!data/backups/.gitkeep
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
